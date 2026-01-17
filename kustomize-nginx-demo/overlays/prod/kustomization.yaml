@@ -1,0 +1,8 @@
+resources:
+  - ../../base
+
+replicas:
+  - name: nginx
+    count: 3
+patches:
+  - path: service-lb.yaml
